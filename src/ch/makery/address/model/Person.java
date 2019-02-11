@@ -19,12 +19,12 @@ public class Person {
     private final StringProperty city;
     private final ObjectProperty<LocalDate> birthday;
 
-   
+  
     public Person() {
         this(null, null);
     }
 
-  
+ 
     public Person(String firstName, String lastName) {
         this.firstName = new SimpleStringProperty(firstName);
         this.lastName = new SimpleStringProperty(lastName);
